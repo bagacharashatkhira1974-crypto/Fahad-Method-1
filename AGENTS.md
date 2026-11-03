@@ -1,0 +1,1 @@
+- Video optimization runs fully in the browser (src/lib/mp4-optimizer.ts): lossless MP4 remux via Blob slices, never re-encode — the Worker runtime has no FFmpeg and 1 GB uploads would not fit server limits.
